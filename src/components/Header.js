@@ -45,7 +45,10 @@ const Header = () => {
     <header className={classes.header}>
       <div className={classes.header__content}>
         <Link to="/" className={classes.header__content__logo}>
-          Home
+          <h5>International Conference on</h5>
+          <h5>
+            Innovative Product Design and Intelligent Manufacturing Systems
+          </h5>
         </Link>
         <nav
           className={`${classes.header__content__nav} ${
